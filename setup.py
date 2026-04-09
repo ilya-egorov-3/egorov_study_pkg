@@ -25,7 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
 		    'first_node = study_pkg.first_node:main',
-		    'time_printer = super_ilya_study_pkg.time_printer:main',
+		    'time_printer = study_pkg.time_printer:main',
         ],
     },
 )
