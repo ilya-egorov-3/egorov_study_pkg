@@ -1,0 +1,32 @@
+[0.419s] Invoking command in '/home/ilya3/ros2_ws/src/study_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/study_pkg build --build-base /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build install --record /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/install.log --single-version-externally-managed install_data
+[0.544s] running egg_info
+[0.552s] writing build/study_pkg/study_pkg.egg-info/PKG-INFO
+[0.552s] writing dependency_links to build/study_pkg/study_pkg.egg-info/dependency_links.txt
+[0.552s] writing entry points to build/study_pkg/study_pkg.egg-info/entry_points.txt
+[0.552s] writing requirements to build/study_pkg/study_pkg.egg-info/requires.txt
+[0.552s] writing top-level names to build/study_pkg/study_pkg.egg-info/top_level.txt
+[0.568s] reading manifest file 'build/study_pkg/study_pkg.egg-info/SOURCES.txt'
+[0.568s] writing manifest file 'build/study_pkg/study_pkg.egg-info/SOURCES.txt'
+[0.569s] running build
+[0.569s] running build_py
+[0.569s] copying study_pkg/even_number_publisher.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.569s] copying study_pkg/overflow_listener.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.569s] running install
+[0.572s] running install_lib
+[0.580s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/even_number_publisher.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.581s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/overflow_listener.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.581s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/even_number_publisher.py to even_number_publisher.cpython-312.pyc
+[0.581s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/overflow_listener.py to overflow_listener.cpython-312.pyc
+[0.581s] running install_data
+[0.582s] running install_egg_info
+[0.590s] removing '/home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.591s] Copying build/study_pkg/study_pkg.egg-info to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg-0.0.0-py3.12.egg-info
+[0.591s] running install_scripts
+[0.650s] Installing even_number_publisher script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.651s] Installing first_node script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.651s] Installing listener script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.651s] Installing overflow_listener script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.651s] Installing talker script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.651s] Installing time_printer script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.651s] writing list of installed files to '/home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/install.log'
+[0.670s] Invoked command in '/home/ilya3/ros2_ws/src/study_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/study_pkg build --build-base /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build install --record /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/install.log --single-version-externally-managed install_data

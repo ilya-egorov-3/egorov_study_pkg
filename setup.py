@@ -28,6 +28,8 @@ setup(
 		    'time_printer = study_pkg.time_printer:main',
 		    'talker = study_pkg.talker:main',
             'listener = study_pkg.listener:main',
+            'even_number_publisher = study_pkg.even_number_publisher:main',
+            'overflow_listener = study_pkg.overflow_listener:main',
         ],
     },
 )

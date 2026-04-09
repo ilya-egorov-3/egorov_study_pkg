@@ -1,0 +1,52 @@
+[0.419s] Invoking command in '/home/ilya3/ros2_ws/src/study_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/study_pkg build --build-base /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build install --record /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/install.log --single-version-externally-managed install_data
+[0.553s] running egg_info
+[0.554s] creating build/study_pkg/study_pkg.egg-info
+[0.561s] writing build/study_pkg/study_pkg.egg-info/PKG-INFO
+[0.561s] writing dependency_links to build/study_pkg/study_pkg.egg-info/dependency_links.txt
+[0.562s] writing entry points to build/study_pkg/study_pkg.egg-info/entry_points.txt
+[0.562s] writing requirements to build/study_pkg/study_pkg.egg-info/requires.txt
+[0.562s] writing top-level names to build/study_pkg/study_pkg.egg-info/top_level.txt
+[0.562s] writing manifest file 'build/study_pkg/study_pkg.egg-info/SOURCES.txt'
+[0.578s] reading manifest file 'build/study_pkg/study_pkg.egg-info/SOURCES.txt'
+[0.578s] writing manifest file 'build/study_pkg/study_pkg.egg-info/SOURCES.txt'
+[0.578s] running build
+[0.579s] running build_py
+[0.579s] creating /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build
+[0.579s] creating /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib
+[0.579s] creating /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.579s] copying study_pkg/even_number_publisher.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.579s] copying study_pkg/first_node.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.579s] copying study_pkg/listener.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.580s] copying study_pkg/time_printer.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.580s] copying study_pkg/__init__.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.580s] copying study_pkg/talker.py -> /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg
+[0.580s] running install
+[0.582s] running install_lib
+[0.590s] creating /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.590s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/even_number_publisher.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.590s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/first_node.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.591s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/listener.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.591s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/time_printer.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.591s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/__init__.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.591s] copying /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build/lib/study_pkg/talker.py -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg
+[0.592s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/even_number_publisher.py to even_number_publisher.cpython-312.pyc
+[0.592s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/first_node.py to first_node.cpython-312.pyc
+[0.592s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/listener.py to listener.cpython-312.pyc
+[0.592s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/time_printer.py to time_printer.cpython-312.pyc
+[0.592s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/__init__.py to __init__.cpython-312.pyc
+[0.593s] byte-compiling /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg/talker.py to talker.cpython-312.pyc
+[0.593s] running install_data
+[0.593s] creating /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/share/ament_index
+[0.593s] creating /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/share/ament_index/resource_index
+[0.593s] creating /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/share/ament_index/resource_index/packages
+[0.593s] copying resource/study_pkg -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/share/ament_index/resource_index/packages
+[0.593s] copying package.xml -> /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/share/study_pkg
+[0.593s] running install_egg_info
+[0.602s] Copying build/study_pkg/study_pkg.egg-info to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages/study_pkg-0.0.0-py3.12.egg-info
+[0.603s] running install_scripts
+[0.663s] Installing first_node script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.663s] Installing listener script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.663s] Installing talker script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.663s] Installing time_printer script to /home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/study_pkg
+[0.663s] writing list of installed files to '/home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/install.log'
+[0.682s] Invoked command in '/home/ilya3/ros2_ws/src/study_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilya3/ros2_ws/src/study_pkg/install/study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/study_pkg build --build-base /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/build install --record /home/ilya3/ros2_ws/src/study_pkg/build/study_pkg/install.log --single-version-externally-managed install_data
