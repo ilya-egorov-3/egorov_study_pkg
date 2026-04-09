@@ -26,6 +26,8 @@ setup(
         'console_scripts': [
 		    'first_node = study_pkg.first_node:main',
 		    'time_printer = study_pkg.time_printer:main',
+		    'talker = study_pkg.talker:main',
+            'listener = study_pkg.listener:main',
         ],
     },
 )
