@@ -1,7 +1,0 @@
-[console_scripts]
-even_number_publisher = study_pkg.even_number_publisher:main
-first_node = study_pkg.first_node:main
-listener = study_pkg.listener:main
-overflow_listener = study_pkg.overflow_listener:main
-talker = study_pkg.talker:main
-time_printer = study_pkg.time_printer:main
